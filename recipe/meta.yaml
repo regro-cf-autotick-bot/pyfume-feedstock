@@ -1,13 +1,13 @@
 {% set name = "pyfume" %}
-{% set version = "0.2.25" %}
+{% set version = "0.3.4" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyFUME-{{ version }}.tar.gz
-  sha256: b83d481c5c8d77dcafddec873d9e2983a5f6fab2d3639b18b10cacb885dbbdf0
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 5305b93b015fbb4d650cac33ef6881d9e81b3a8c5bfadf149c41485236667df5
 
 build:
   noarch: python
